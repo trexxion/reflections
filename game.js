@@ -1047,6 +1047,9 @@ Game = {
       if (!Game.coin.visible &&
           Date.now() > Game.nextCoinTime) {
         Game.coin.visible = true;
+        Game.coin.solid = true;
+        Game.coin.color = 'blue';
+    	
       }
     },
     new_level: function () {
