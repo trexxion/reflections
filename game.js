@@ -724,6 +724,8 @@ Coin = function () {
               0, -5]);
 
   this.collidesWith = ["ship"];
+  this.color = 'yellow';
+  this.solid = true;
 
   this.newPosition = function () {
     this.x = Math.random() * Game.canvasWidth;
@@ -1047,8 +1049,6 @@ Game = {
       if (!Game.coin.visible &&
           Date.now() > Game.nextCoinTime) {
         Game.coin.visible = true;
-        Game.coin.solid = true;
-        Game.coin.color = 'blue';
     	
       }
     },
