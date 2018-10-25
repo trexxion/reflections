@@ -8,3 +8,6 @@ Why might you want to always pull changes manually rather than having Git automa
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
 
 Зорк клонирует Хранилище любого пользователя с сервера, на наше хранилище в ГитХабе. Поле этой процедуры, мы можем его клонировать и работать с ним на своём компьютере не боясь повредить оригиналу. Это не похоже на действие команды бранч, поскольку не делает ответвление в основной ветке, а берет и копирует всю ветку, встроенной фичей сайта ГитХаб. Я буду использовать Зорк тогда, когда захочу поработать с чужими проектами в личных целях, чтобы не боятся повредить чужую работу. 
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+Актуализация данных, возможность быть "на одной" волне со своими кооператорами. 
