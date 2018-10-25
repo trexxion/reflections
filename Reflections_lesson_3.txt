@@ -11,3 +11,7 @@ Describe the differences between forks, clones, and branches. When would you use
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 Актуализация данных, возможность быть "на одной" волне со своими кооператорами. 
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Без использования ГитХаба объединятся для совместной работы, удалённо, довольно сложно. Придётся пользоваться почтой, чтобы передавать файлы кода друг другу после каждого исправления. Это может привести к путанице. К тому же этой занимает намного больше времени чем отправить ЗАПРОС через ГитХаб
